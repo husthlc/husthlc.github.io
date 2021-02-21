@@ -119,7 +119,7 @@
           var minSrc = 'https://raw.githubusercontent.com/husthlc/husthlc.github.io/main/min_photos/' + data.link[i] + '.min.jpg';
           var src = 'https://raw.githubusercontent.com/husthlc/husthlc.github.io/main/photos/' + data.link[i];
           var type = data.type[i];
-          var target = src + (type === 'video' ? '.mp4' : '.jpg');
+         // var target = src + (type === 'video' ? '.mp4' : '.jpg');
           // src += '.jpg';
 
           liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
